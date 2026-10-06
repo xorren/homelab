@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
 
 :root {
   --bg: #0a0a0a;
@@ -9,7 +10,12 @@
   --accent: #00e5ff;
   --accent-dim: #00b8cc;
   --font-mono: "JetBrains Mono", "Fira Code", "Cascadia Code", ui-monospace,
-    SFMono-Regular, Menlo, monospace;
+    SFMono-Regular, Menlo, "Noto Sans KR", sans-serif;
+}
+
+/* Next.js dev toolbar 숨기기 */
+nextjs-portal {
+  display: none !important;
 }
 
 * {
