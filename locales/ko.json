@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "dashboard": "대시보드",
+    "vms": "가상 머신"
+  },
+  "shell": {
+    "tagline": "개인 서버 대시보드",
+    "logout": "[로그아웃]"
+  },
+  "login": {
+    "subtitle": "비밀번호를 입력하세요",
+    "placeholder": "비밀번호",
+    "button": "로그인",
+    "error": "비밀번호가 올바르지 않습니다."
+  },
+  "setup": {
+    "subtitle": "최초 실행 — 비밀번호를 설정하세요",
+    "placeholder": "비밀번호",
+    "confirmPlaceholder": "비밀번호 확인",
+    "button": "비밀번호 설정",
+    "errorTooShort": "비밀번호는 최소 4자 이상이어야 합니다.",
+    "errorMismatch": "비밀번호가 일치하지 않습니다.",
+    "errorFailed": "설정에 실패했습니다."
+  },
+  "vms": {
+    "title": "가상 머신",
+    "errorBanner": "vmrest 연결 실패 — {message} — 10초 후 재시도",
+    "empty": "VM 없음 — vmrest 연결을 확인하세요"
+  },
+  "state": {
+    "running": "실행 중",
+    "stopped": "중지됨",
+    "paused": "일시정지",
+    "suspended": "절전"
+  },
+  "action": {
+    "start": "시작",
+    "stop": "중지",
+    "pause": "일시정지",
+    "resume": "재개"
+  },
+  "vm": {
+    "loading": "로딩···",
+    "errorVmrest": "vmrest 연결 실패",
+    "errorAction": "작업 실패",
+    "setIp": "[IP 설정]",
+    "override": "[오버라이드]",
+    "save": "저장",
+    "clear": "초기화",
+    "openTerminal": "터미널 열기",
+    "closeTerminal": "터미널 닫기",
+    "user": "사용자:",
+    "ipNotRunning": "VM이 실행 중일 때만 사용 가능",
+    "ipNotSet": "IP를 먼저 설정하세요"
+  },
+  "notes": {
+    "title": "학습 메모",
+    "saving": "저장 중…",
+    "saved": "{time}에 저장됨",
+    "error": "저장 실패",
+    "placeholder": "// 여기에 학습 메모를 입력하세요"
+  },
+  "host": {
+    "label": "호스트",
+    "error": "메트릭 사용 불가"
+  }
+}

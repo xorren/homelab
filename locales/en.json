@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "vms": "VMs"
+  },
+  "shell": {
+    "tagline": "personal lab dashboard",
+    "logout": "[logout]"
+  },
+  "login": {
+    "subtitle": "enter password to continue",
+    "placeholder": "password",
+    "button": "login",
+    "error": "Invalid password."
+  },
+  "setup": {
+    "subtitle": "first run — set a password",
+    "placeholder": "password",
+    "confirmPlaceholder": "confirm password",
+    "button": "set password",
+    "errorTooShort": "Password must be at least 4 characters.",
+    "errorMismatch": "Passwords do not match.",
+    "errorFailed": "Setup failed."
+  },
+  "vms": {
+    "title": "VIRTUAL MACHINES",
+    "errorBanner": "vmrest unreachable — {message} — retrying in 10s",
+    "empty": "no VMs found — check vmrest connection"
+  },
+  "state": {
+    "running": "running",
+    "stopped": "stopped",
+    "paused": "paused",
+    "suspended": "suspended"
+  },
+  "action": {
+    "start": "start",
+    "stop": "stop",
+    "pause": "pause",
+    "resume": "resume"
+  },
+  "vm": {
+    "loading": "loading···",
+    "errorVmrest": "vmrest unreachable",
+    "errorAction": "action failed",
+    "setIp": "[set ip]",
+    "override": "[override]",
+    "save": "save",
+    "clear": "clear",
+    "openTerminal": "open terminal",
+    "closeTerminal": "close terminal",
+    "user": "user:",
+    "ipNotRunning": "VM must be running",
+    "ipNotSet": "Set IP address first"
+  },
+  "notes": {
+    "title": "study notes",
+    "saving": "saving…",
+    "saved": "saved {time}",
+    "error": "save failed",
+    "placeholder": "// enter study notes here"
+  },
+  "host": {
+    "label": "HOST",
+    "error": "metrics unavailable"
+  }
+}
