@@ -12,8 +12,11 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const { t, locale, setLocale } = useTranslation();
 
   const NAV_ITEMS = [
-    { href: "/",    label: t("nav.dashboard") },
-    { href: "/vms", label: t("nav.vms") },
+    { href: "/",          label: t("nav.dashboard") },
+    { href: "/vms",       label: t("nav.vms") },
+    { href: "/processes", label: t("nav.processes") },
+    { href: "/network",   label: t("nav.network") },
+    { href: "/settings",  label: t("nav.settings") },
   ];
 
   async function handleLogout() {

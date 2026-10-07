@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "대시보드",
-    "vms": "가상 머신"
+    "vms": "가상 머신",
+    "processes": "프로세스",
+    "network": "네트워크",
+    "settings": "설정"
   },
   "shell": {
     "tagline": "개인 서버 대시보드",
@@ -63,5 +66,64 @@
   "host": {
     "label": "호스트",
     "error": "메트릭 사용 불가"
+  },
+  "settings": {
+    "pw": {
+      "title": "비밀번호 변경",
+      "current": "현재 비밀번호",
+      "new": "새 비밀번호",
+      "confirm": "비밀번호 확인",
+      "button": "비밀번호 변경",
+      "success": "비밀번호가 변경되었습니다.",
+      "error": "변경에 실패했습니다.",
+      "errorMismatch": "비밀번호가 일치하지 않습니다."
+    },
+    "vmrest": {
+      "title": "VMREST 연결 설정",
+      "url": "URL",
+      "user": "사용자명",
+      "pass": "비밀번호",
+      "save": "저장",
+      "test": "연결 테스트",
+      "saved": "저장되었습니다.",
+      "saveFailed": "저장 실패.",
+      "testing": "테스트 중…",
+      "connected": "연결 성공.",
+      "failed": "연결 실패"
+    }
+  },
+  "processes": {
+    "loading": "로딩 중…",
+    "empty": "프로젝트 없음 — 위에서 추가하세요",
+    "addProject": "+ 프로젝트 추가",
+    "cancelProject": "취소",
+    "cancelServer": "취소",
+    "projectName": "프로젝트명",
+    "projectDesc": "설명 (선택)",
+    "create": "생성",
+    "deleteProject": "삭제",
+    "noServers": "서버 없음 — + server 클릭하여 추가",
+    "add": "추가",
+    "start": "시작",
+    "stop": "중지",
+    "logs": "로그",
+    "hideLogs": "숨기기"
+  },
+  "network": {
+    "tabPorts": "리스닝 포트",
+    "tabFirewall": "방화벽 규칙",
+    "filterPort": "포트 / 주소 필터",
+    "filterRule": "규칙명 / 포트 필터",
+    "refresh": "새로고침",
+    "entries": "개",
+    "loading": "로딩 중…",
+    "colPort": "포트",
+    "colAddress": "주소",
+    "colProtocol": "프로토콜",
+    "colState": "상태",
+    "colName": "규칙명",
+    "colDirection": "방향",
+    "colAction": "동작",
+    "colLocalPort": "로컬 포트"
   }
 }

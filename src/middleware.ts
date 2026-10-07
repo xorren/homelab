@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { unsealData } from "iron-session";
 
-const PUBLIC_PATHS = ["/login", "/setup", "/api/auth/login", "/api/auth/logout", "/api/auth/setup", "/api/debug"];
+const PUBLIC_PATHS = ["/login", "/setup", "/api/auth/login", "/api/auth/logout", "/api/auth/setup"];
 
 const SESSION_PASSWORD =
   process.env.SESSION_SECRET ??

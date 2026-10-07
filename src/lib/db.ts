@@ -31,6 +31,22 @@ function migrate(db: Database.Database) {
       vm_id TEXT PRIMARY KEY,
       ip    TEXT NOT NULL
     );
+    CREATE TABLE IF NOT EXISTS projects (
+      id          TEXT PRIMARY KEY,
+      name        TEXT NOT NULL,
+      description TEXT NOT NULL DEFAULT '',
+      created_at  INTEGER NOT NULL
+    );
+    CREATE TABLE IF NOT EXISTS servers (
+      id         TEXT PRIMARY KEY,
+      project_id TEXT NOT NULL,
+      name       TEXT NOT NULL,
+      role       TEXT NOT NULL DEFAULT 'backend',
+      command    TEXT NOT NULL,
+      port       INTEGER,
+      created_at INTEGER NOT NULL,
+      FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
+    );
   `);
 }
 

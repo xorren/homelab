@@ -1,7 +1,10 @@
 {
   "nav": {
     "dashboard": "Dashboard",
-    "vms": "VMs"
+    "vms": "VMs",
+    "processes": "Processes",
+    "network": "Network",
+    "settings": "Settings"
   },
   "shell": {
     "tagline": "personal lab dashboard",
@@ -63,5 +66,64 @@
   "host": {
     "label": "HOST",
     "error": "metrics unavailable"
+  },
+  "settings": {
+    "pw": {
+      "title": "CHANGE PASSWORD",
+      "current": "Current password",
+      "new": "New password",
+      "confirm": "Confirm password",
+      "button": "update password",
+      "success": "Password updated.",
+      "error": "Failed to update.",
+      "errorMismatch": "Passwords do not match."
+    },
+    "vmrest": {
+      "title": "VMREST CONNECTION",
+      "url": "URL",
+      "user": "Username",
+      "pass": "Password",
+      "save": "save",
+      "test": "test connection",
+      "saved": "Saved.",
+      "saveFailed": "Save failed.",
+      "testing": "Testing…",
+      "connected": "Connected.",
+      "failed": "Connection failed"
+    }
+  },
+  "processes": {
+    "loading": "loading…",
+    "empty": "no projects — add one above",
+    "addProject": "+ add project",
+    "cancelProject": "cancel",
+    "cancelServer": "cancel",
+    "projectName": "project name",
+    "projectDesc": "description (optional)",
+    "create": "create",
+    "deleteProject": "delete",
+    "noServers": "no servers — click + server to add",
+    "add": "add",
+    "start": "start",
+    "stop": "stop",
+    "logs": "logs",
+    "hideLogs": "hide"
+  },
+  "network": {
+    "tabPorts": "Listening Ports",
+    "tabFirewall": "Firewall Rules",
+    "filterPort": "filter port / address",
+    "filterRule": "filter rule name / port",
+    "refresh": "refresh",
+    "entries": "entries",
+    "loading": "loading…",
+    "colPort": "PORT",
+    "colAddress": "ADDRESS",
+    "colProtocol": "PROTO",
+    "colState": "STATE",
+    "colName": "RULE NAME",
+    "colDirection": "DIR",
+    "colAction": "ACTION",
+    "colLocalPort": "LOCAL PORT"
   }
 }
